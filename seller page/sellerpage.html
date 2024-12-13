@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Mart - Seller Page</title>
+    <link rel="stylesheet" href="sellerstyle.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">Field Mart</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a onclick ="navigateTo('sellerpage.html')">About</a></li>
+                <li><a href="#">Seller</a></li>
+                <li><a href="#">Buyer</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="sign-in">Sign In</a>
+            <a href="#" class="sign-up">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-banner">
+            <h1>Sell your fresh produce on our platform and reach more buyers!</h1>
+            <p>Your fresh produce deserves a bigger audience. Let’s help you sell faster and smarter!</p>
+        </div>
+        <div class="hero-banner">
+            <h1>Turn your harvest into sales. Sell your products with us!</h1>
+            <p>Harvest success! Connect with buyers eager for your farm-fresh produce.</p>
+        </div>
+        <div class="hero-banner">
+            <h1>Get your farm-fresh products online. Start selling on our website now!</h1>
+            <p>Share your harvest, grow your business. Start selling today and reach new customers!</p>
+        </div>
+    </section>
+
+    <!-- Seller Section -->
+    <section class="seller-details">
+        <div class="seller-form">
+            <h2>Seller Details</h2>
+            <form>
+                <label for="seller-name">Seller Name:</label>
+                <input type="text" id="seller-name" placeholder="Enter your name">
+
+                <label for="seller-id">Seller ID:</label>
+                <input type="text" id="seller-id" placeholder="Enter your ID">
+
+                <label for="bank-details">Bank Details:</label>
+                <input type="text" id="bank-details" placeholder="Enter bank details">
+
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" placeholder="Enter your contact">
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" placeholder="Enter your address">
+
+                <div class="form-buttons">
+                    <button type="button" class="edit-button">+ Edit</button>
+                    <button type="submit" class="ok-button">OK</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Buttons Section -->
+    <section class="action-buttons">
+        <button class="action-button">Orders</button>
+        <button class="action-button">My Items</button>
+        <button class="action-button">Bids</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="newsletter">
+            <h3>Sign Up For Newsletters</h3>
+            <p>Get email updates about our latest shop special offers.</p>
+            <input type="email" placeholder="Your Email Address">
+            <button>Sign Up</button>
+        </div>
+        <div class="footer-info">
+            <p>Address: 562 Wellington Road, Street 32, San Francisco</p>
+            <p>Phone: +01 2222 365 / (+91) 01 2345 6789</p>
+            <p>Hours: 10:00 - 18:00, Mon - Sat</p>
+        </div>
+    </footer>
+    <script src="sellerscript.js"></script>
+</body>
+</html>

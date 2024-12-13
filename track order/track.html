@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track My Order</title>
+  <link rel="stylesheet" href="track.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="FieldMart Logo"> Track My Order
+    </div>
+    <nav>
+      <a href="file:///C:/Users/User/Desktop/Codes/home%20page/home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="seller.html">Seller</a>
+      <a href="buyer.html" class="active">Buyer</a>
+    </nav>
+    <div class="auth-buttons">
+      <button>Sign In</button>
+      <button class="signup">Sign Up</button>
+    </div>
+  </header>
+
+  <main class="order-tracking">
+    <section class="tracking-progress">
+      <div class="step completed">1 <p>Processing</p></div>
+      <div class="step current">2 <p>Shipped</p></div>
+      <div class="step">3 <p>Out for Delivery</p></div>
+      <div class="step">4 <p>Delivered</p></div>
+    </section>
+
+    <section class="order-details">
+      <h2>Order Confirmation</h2>
+      <div class="details">
+        <p><strong>Order Number:</strong> #12345</p>
+        <p><strong>Order Date:</strong> September 20, 2024</p>
+        <p><strong>Items Ordered:</strong></p>
+        <ul>
+          <li>Samba Rice</li>
+          <li>Tomato</li>
+        </ul>
+      </div>
+      <div class="details">
+        <p><strong>Tracking Number:</strong> XYZ123456789</p>
+        <p><strong>Estimated Delivery:</strong> September 24, 2024</p>
+        <p><strong>Delivery Address:</strong> 123 Example Street, City, Country</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="newsletter">
+      <h3>Sign Up For Newsletters</h3>
+      <p>Get E-mail updates about our latest shop special offers.</p>
+      <form>
+        <input type="email" placeholder="Your Email Address">
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+    <section class="footer-details">
+      <div>
+        <h4>Contact</h4>
+        <p>Address: 562 Wellington Road, San Francisco</p>
+        <p>Phone: +01 2222 365</p>
+        <p>Hours: 10:00 - 18:00, Mon - Sat</p>
+        <p>Follow Us:</p>
+        <div class="social-icons">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+      <div>
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Delivery Information</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>My Account</h4>
+        <ul>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">View Cart</a></li>
+          <li><a href="#">Track My Order</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <p>Secured Payment Gateways:</p>
+        <img src="payment-icons.png" alt="Payment Gateways">
+      </div>
+    </section>
+  </footer>
+
+  <script src="track.js"></script>
+</body>
+</html>

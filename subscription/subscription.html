@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FieldMart Subscription Plans</title>
+    <link rel="stylesheet" href="subscriptionstyle.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="logo.png" alt="FieldMart Logo" class="logo">
+            <img src="cart.png" alt="Cart" class="cart-icon"> <!-- Cart icon on the right -->
+        </div>
+        <!-- Search bar and Sign In container -->
+        <div class="search-signin-container">
+            <input type="text" placeholder="Search">
+            <a href="#">Sign In</a>
+        </div>
+        <!-- Nav links in the header -->
+        <div class="nav-links-container">
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Seller</a>
+                <a href="#">Buyer</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="plans">
+            <h1>GO With <span class="highlight">FieldMart</span></h1>
+            <h2>Choose Your Plan</h2>
+            <div class="plan-container">
+                <!-- Free Plan -->
+                <div class="plan">
+                    <h3>Free Plan</h3>
+                    <ul>
+                        <li>Limited access to transport tracking (basic updates)</li>
+                        <li>Access to list up to 20 products (for wholesalers)</li>
+                        <li>Standard delivery options for orders within city limits</li>
+                    </ul>
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+                <!-- Monthly Plan -->
+                <div class="plan">
+                    <h3>Monthly Plan</h3>
+                    <p class="price">LKR 6,000/month</p>
+                    <ul>
+                        <li>List up to 200 products (for wholesalers)</li>
+                        <li>Real-time tracking for deliveries, including SMS notifications</li>
+                        <li>Priority access to bulk discount offers from wholesalers</li>
+                    </ul>
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+                <!-- Annual Plan -->
+                <div class="plan">
+                    <h3>Annual Plan</h3>
+                    <p class="price">LKR 60,000/year</p>
+                    <ul>
+                        <li>Unlimited product listings (for wholesalers)</li>
+                        <li>Unlimited orders with no delivery restrictions (for retailers)</li>
+                        <li>Free transport for orders over a certain value (e.g., LKR 50,000)</li>
+                    </ul>
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="subscriptionscript.js"></script>
+</body>
+</html>

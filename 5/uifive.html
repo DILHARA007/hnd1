@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buyer UI</title>
+  <link rel="stylesheet" href="uifivestyle.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">FieldMart</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Seller</a></li>
+        <li><a href="#" class="active">Buyer</a></li>
+      </ul>
+      <div class="auth-links">
+        <a href="#">Sign In</a>
+        <a href="#">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-section">
+      <div class="product-info">
+        <h1>Samba Rice</h1>
+        <!-- Image container with placeholder -->
+        <div id="image-container" class="image-placeholder">
+          <p>No image available</p>
+        </div>
+      </div>
+      <div class="product-details">
+        <p><strong>Item ID:</strong> S2003</p>
+        <p><strong>Item Details:</strong></p>
+        <ul>
+          <li><strong>City:</strong> Kurunegala</li>
+          <li><strong>Seller:</strong> Araliya Sahal</li>
+        </ul>
+        <p><strong>Selling Price:</strong> Rs 40,000 /- <a href='file:///C:/Users/User/Desktop/Codes/buyer%20view/buyerpage.html'>More Prices</a></p>
+        <p><strong>QTY Available:</strong> 170 KG</p>
+        <div class="quantity-section">
+          <p><strong>QTY:</strong></p>
+          <button id="decrementBtn">-</button>
+          <input type="number" id="quantityInput" value="1" min="1" max="170">
+          <button id="incrementBtn">+</button>
+        </div>
+        <div class="action-buttons">
+          <button onclick="window.location.href='file:///C:/Users/User/Desktop/Codes/6/uisix.html'">Order</button>
+          <button onclick="window.location.href='file:///C:/Users/User/Desktop/Codes/4/uifour.html'">Cancel</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="uifivescript.js" defer></script>
+</body>
+</html>

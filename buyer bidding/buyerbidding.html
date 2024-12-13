@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyer Bidding</title>
+    <link rel="stylesheet" href="bbiddingstyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Field Mart Logo">
+                <span>Field Mart</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Seller</a>
+                <a href="#">Buyer</a>
+            </div>
+            <div class="auth-links">
+                <a href="#">Sign In</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    <main class="bidding-container">
+        <div class="item-details">
+            <img src="samba-rice.jpg" alt="Samba Rice">
+            <div class="item-info">
+                <h2>Samba Rice</h2>
+                <p><strong>Bid ID:</strong> B0025</p>
+                <p><strong>Item ID:</strong> S2003</p>
+                <p><strong>Order Item:</strong> Samba Rice</p>
+                <p><strong>Actual Price:</strong> Rs 40,000 /-</p>
+                <div class="quantity">
+                    <label>QTY:</label>
+                    <button class="qty-btn" id="increment">+</button>
+                    <input type="number" id="qty" value="1" min="1" readonly>
+                    <button class="qty-btn" id="decrement">-</button>
+                </div>
+                <div class="bidding-price">
+                    <label>Bidding Price:</label>
+                    <input type="number" id="bidding-price" placeholder="Enter price">
+                </div>
+                <div class="buttons">
+                    <button class="bid-btn" id="placeBid">Bid</button>
+                    <button class="cancel-btn"onclick="window.location.href='file:///C:/Users/User/Desktop/Codes/6/uisix.html'">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="bbiddingscript.js"></script>
+</body>
+</html>

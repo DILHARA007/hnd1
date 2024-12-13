@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf4d7;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffb400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .logo {
+    height: 40px;
+}
+
+.navbar .cart-icon {
+    position: absolute;
+    right: 20px;  /* Move cart icon to the right side */
+    top: 50%;     /* Vertically center the cart icon */
+    transform: translateY(-50%); /* Ensure it is vertically centered */
+    height: 25px;
+}
+
+/* Search bar and Sign In container */
+.search-signin-container {
+    display: flex;
+    justify-content: center; /* Center the items */
+    gap: 15px;
+    padding: 10px 0;
+    background-color: #ffb400;
+}
+
+.search-signin-container input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 250px;
+}
+
+.search-signin-container a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Nav links container */
+.nav-links-container {
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    margin-top: 10px;
+    background-color: #ffb400;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Section */
+.plans {
+    text-align: center;
+    padding: 20px;
+}
+
+.plans h1 {
+    font-size: 2.5em;
+    color: #7a3805;
+}
+
+.plans h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #3e2205;
+}
+
+.highlight {
+    color: #ff7a00;
+}
+
+/* Plan Container */
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.plan {
+    background-color: #ffe8c1;
+    border: 2px solid #ffd089;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.plan h3 {
+    text-align: center;
+    color: #7a3805;
+}
+
+.plan .price {
+    font-weight: bold;
+    text-align: center;
+    color: #7a3805;
+    margin: 10px 0;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    color: #3e2205;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.subscribe-btn {
+    display: block;
+    width: 100%;
+    background-color: #ffb400;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subscribe-btn:hover {
+    background-color: #ff7a00;
+}
